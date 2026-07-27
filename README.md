@@ -10,7 +10,7 @@ The complete solution consists of:
 
 * A machine learning regression pipeline
 * A FastAPI prediction backend
- https://vehicle-co2-api.onrender.com/
+(https://vehicle-co2-api.onrender.com/docs)
 * A Flutter cross-platform mobile application
 * A serialized production model deployment workflow
 
