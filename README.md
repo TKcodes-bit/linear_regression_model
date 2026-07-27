@@ -23,13 +23,13 @@ The complete solution consists of:
 Swagger UI:
 
 ```
-https://your-render-domain.onrender.com/docs
+(https://vehicle-co2-api.onrender.com/docs)
 ```
 
 ## Production API Base URL
 
 ```
-https://your-render-domain.onrender.com
+(https://vehicle-co2-api.onrender.com/docs)
 ```
 
 > Replace the URL above with the final Render deployment URL after deployment.
