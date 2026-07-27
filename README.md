@@ -461,7 +461,7 @@ Possible enhancements include:
 
 # Author
 
-Thomas Queyer Odongo
+Thomas Kweya Odongo
 
 African Leadership University
 Software Engineering
