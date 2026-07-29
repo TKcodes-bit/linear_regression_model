@@ -6,7 +6,7 @@ import '../models/vehicle.dart';
 class ApiService {
   // Replace with your actual Render URL
   static const String baseUrl =
-      "https://YOUR-RENDER-URL.onrender.com";
+      "https://vehicle-co2-api.onrender.com";
 
   static Future<double> predictEmission(Vehicle vehicle) async {
     final response = await http.post(
