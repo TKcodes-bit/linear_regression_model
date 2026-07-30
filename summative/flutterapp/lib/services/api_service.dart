@@ -11,30 +11,28 @@ class ApiService {
 
   static Future<double> predictEmission(Vehicle vehicle) async {
 
-    // Encode categorical values before sending to ML API
     final encodedVehicle = {
       "year": vehicle.year,
 
-      "make": makeEncoder[vehicle.make],
-      "model": modelEncoder[vehicle.model],
+      "make": makeMap[vehicle.make.toUpperCase()],
+      "model": modelMap[vehicle.model.toUpperCase()],
       "vehicle_class":
-          vehicleClassEncoder[vehicle.vehicleClass],
+          vehicleClassMap[vehicle.vehicleClass.toUpperCase()],
 
       "engine_size": vehicle.engineSize,
       "cylinders": vehicle.cylinders,
 
       "transmission":
-          transmissionEncoder[vehicle.transmission],
+          transmissionMap[vehicle.transmission.toUpperCase()],
 
       "fuel_type":
-          fuelTypeEncoder[vehicle.fuelType],
+          fuelTypeMap[vehicle.fuelType.toUpperCase()],
 
       "fuel_city": vehicle.fuelCity,
       "fuel_hwy": vehicle.fuelHwy,
       "fuel_comb": vehicle.fuelComb,
       "fuel_mpg": vehicle.fuelMpg,
     };
-
 
     print("Sending encoded JSON:");
     print(encodedVehicle);
@@ -61,4 +59,3 @@ class ApiService {
     }
   }
 }
-
