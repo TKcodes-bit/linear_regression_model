@@ -240,7 +240,7 @@ Example response:
 
 ```json
 {
-  "prediction": 220.5,
+  "prediction": 153.80,
   "unit": "g/km"
 }
 ```
@@ -335,7 +335,7 @@ Example:
 
 ```
 Estimated Emission:
-220.5 g/km
+153.5 g/km
 ```
 
 ### Error State
