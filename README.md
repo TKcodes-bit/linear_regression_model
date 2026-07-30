@@ -6,13 +6,8 @@ This project develops a machine learning system capable of predicting vehicle ta
 
 The system uses vehicle attributes such as engine size, cylinder count, fuel consumption, and transmission type to estimate CO₂ emissions in grams per kilometer (g/km).
 
-The complete solution consists of:
-
-* A machine learning regression pipeline
-* A FastAPI prediction backend
-(https://vehicle-co2-api.onrender.com/docs)
-* A Flutter cross-platform mobile application
-* A serialized production model deployment workflow
+#Source
+*https://open.canada.ca/data/en/dataset/98f1a129-f628-4ce4-b24d-6f16bf24dd64/resource/581ab81d-fe7f-4beb-9f31-e1b8e7552cb6*
 
 ---
 
