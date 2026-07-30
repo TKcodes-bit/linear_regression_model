@@ -219,12 +219,19 @@ Example request:
 
 ```json
 {
-  "engine_size": 2.5,
-  "cylinders": 6,
-  "fuel_consumption": 9.5,
-  "transmission": 1
+  "year": 2020,
+  "make": 36,
+  "model": 214,
+  "vehicle_class": 0,
+  "engine_size": 1.8,
+  "cylinders": 4,
+  "transmission": 2,
+  "fuel_type": 2,
+  "fuel_city": 7.5,
+  "fuel_hwy": 5.8,
+  "fuel_comb": 6.4,
+  "fuel_mpg": 42
 }
-```
 
 Example response:
 
