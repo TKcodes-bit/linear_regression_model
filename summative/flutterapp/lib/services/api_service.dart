@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import '../models/vehicle.dart';
 
 class ApiService {
-  // Replace with your actual Render URL
+  // Your deployed Render API
   static const String baseUrl =
       "https://vehicle-co2-api.onrender.com";
 
@@ -20,7 +20,7 @@ class ApiService {
     if (response.statusCode == 200) {
       final data = jsonDecode(response.body);
 
-      return (data["prediction"] as num).toDouble();
+      return (data["predicted_co2"] as num).toDouble();
     } else {
       throw Exception("Prediction failed: ${response.body}");
     }
