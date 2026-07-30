@@ -25,6 +25,54 @@ https://vehicle-co2-api.onrender.com/predict
 Swagger:
 https://vehicle-co2-api.onrender.com/docs
 
+linear_regression_model/
+│
+├── README.md
+│
+└── summative/
+    │
+    ├── linear_regression/
+    │   │
+    │   ├── MY2015 Fuel Consumption Ratings.csv
+    │   └── multivariate.ipynb
+    │
+    ├── API/
+    │   │
+    │   ├── main.py
+    │   ├── prediction.py
+    │   ├── requirements.txt
+    │   ├── best_regression_model.pkl
+    │   ├── input_scaler.pkl
+    │   └── venv/
+    │
+    └── flutterapp/
+        │
+        ├── lib/
+        │   │
+        │   ├── main.dart
+        │   │
+        │   ├── models/
+        │   │     └── vehicle.dart
+        │   │
+        │   ├── services/
+        │   │     └── api_service.dart
+        │   │
+        │   ├── screens/
+        │   │     └── home_screen.dart
+        │   │
+        │   ├── widgets/
+        │   │     └── custom_text_field.dart
+        │   │
+        │   └── utils/
+        │         └── encoders.dart
+        │
+        ├── android/
+        ├── ios/
+        ├── web/
+        ├── linux/
+        ├── macos/
+        └── windows/
+
 # Task 1: Machine Learning Model Development Lifecycle
 
 ## 1. Dataset Description
