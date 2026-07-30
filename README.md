@@ -18,23 +18,14 @@ The complete solution consists of:
 
 # Public API Service
 
-## API Documentation
+Base URL:
+https://vehicle-co2-api.onrender.com
 
-Swagger UI:
+Prediction:
+https://vehicle-co2-api.onrender.com/predict
 
-```
-(https://vehicle-co2-api.onrender.com/docs)
-```
-
-## Production API Base URL
-
-```
-(https://vehicle-co2-api.onrender.com/docs)
-```
-
-> Replace the URL above with the final Render deployment URL after deployment.
-
----
+Swagger:
+https://vehicle-co2-api.onrender.com/docs
 
 # Task 1: Machine Learning Model Development Lifecycle
 
