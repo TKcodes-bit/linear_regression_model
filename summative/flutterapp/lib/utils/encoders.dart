@@ -830,5 +830,5 @@ const Map<String, int> modelMap = {
   'Z4 sDRIVE35is': 732,
   'iQ': 733,
   'tC': 734,
-  'xB': 735)
+  'xB': 735
 };
