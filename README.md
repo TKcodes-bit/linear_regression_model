@@ -31,6 +31,7 @@ https://vehicle-co2-api.onrender.com/docs
 
 
 ---
+```
 linear_regression_model/
 │
 ├── README.md
@@ -78,6 +79,7 @@ linear_regression_model/
         ├── linux/
         ├── macos/
         └── windows/
+```
 # Task 1: Machine Learning Model Development Lifecycle
 
 ## 1. Dataset Description
